@@ -73,7 +73,11 @@ public class WeatherpicDialogFragment extends DialogFragment {
                     .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            mHost.callbackAddButton(caption.getText().toString(), url.getText().toString());
+                            if (!url.getText().toString().equals("")) {
+                                mHost.callbackAddButton(caption.getText().toString(), url.getText().toString());
+                            } else {
+                                mHost.callbackAddButton(getString(R.string.text_random), Util.randomImageUrl());
+                            }
                         }
                     });
         }

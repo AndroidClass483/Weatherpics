@@ -5,4 +5,5 @@
     <string name="alert_dialog_button_delete">DELETE</string>
     <string name="fragment_dialog_hint_caption">Caption</string>
     <string name="fragment_dialog_hint_URL">url of photo</string>
+    <string name="text_random">Random</string>
 </resources>
