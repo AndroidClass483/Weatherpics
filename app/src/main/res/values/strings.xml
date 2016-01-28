@@ -4,6 +4,11 @@
     <string name="alert_dialog_title">Add a Weatherpic</string>
     <string name="alert_dialog_button_delete">DELETE</string>
     <string name="fragment_dialog_hint_caption">Caption</string>
-    <string name="fragment_dialog_hint_URL">url of photo</string>
+    <string name="fragment_dialog_hint_URL">imageUrl of photo</string>
     <string name="text_random">Random</string>
+    <string name="title_password_screen">Weatherpics</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">LOGIN</string>
+    <string name="login_facebook_button_text">LOGIN WITH FACEBOOK</string>
 </resources>
