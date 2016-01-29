@@ -6,7 +6,7 @@
     <item
         android:id="@+id/action_show_more_less"
         android:orderInCategory="80"
-        android:title="SHOW MINE"
+        android:title="SHOW ALL"
         app:showAsAction="always"/>
     <item
         android:id="@+id/action_logout"

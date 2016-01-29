@@ -11,4 +11,5 @@
     <string name="password_hint">Password</string>
     <string name="login_button_text">LOGIN</string>
     <string name="login_facebook_button_text">LOGIN WITH FACEBOOK</string>
+    <string name="facebook_app_id">181748158854096</string>
 </resources>
